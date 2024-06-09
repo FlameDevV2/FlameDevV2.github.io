@@ -1,0 +1,115 @@
+* {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 100ms ease;
+}
+
+.nav a, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Expletus Sans', sans-serif;
+}
+
+body {
+  background-color: #1C1B22;
+  margin: 0;
+  padding-top: 3.75rem;
+}
+
+.nav {
+  z-index: 400;
+  background-color: #2B2A33;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0.625rem;
+  width: calc(100% - 0.625rem);
+  height: 3.75rem;
+  padding: 0;
+  padding-right: 0.625rem;
+  margin: 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.25em;
+}
+
+.nav a {
+  text-decoration: none;
+  border-radius: 0.625rem;
+  background-color: #494855;
+  padding: 0.3125rem 0.9375rem;
+  margin: 0.625rem 0.3125rem;
+  display: inline-block;
+}
+
+.nav a:hover {
+  background-color: #3A3944;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 1);
+}
+
+.nav a:active {
+  box-shadow: 0 0 0.125em rgba(0, 0, 0, 1);
+}
+
+.nav .logo img {
+  padding: 0;
+  margin: 0;
+  width: 2rem;
+  height: 2rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+.content {
+  background-color: #1C1B22;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 1);
+}
+
+#projects a {
+  display: block;
+  color: #FF4500;
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+
+#projects a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  z-index: 200;
+  background-color: #2B2A33;
+  text-align: center;
+  padding: 1em;
+  margin: 0;
+  border: 0;
+  font-size: 1em;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 768px) {
+  .nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav a {
+      width: 100%;
+  }
+
+  main {
+      padding: 0.5rem;
+  }
+
+  .content {
+      padding: 1rem;
+  }
+}
+body {
+    font-family: 'Luckiest Guy', cursive;
+}
